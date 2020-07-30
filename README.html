@@ -1,0 +1,39 @@
+<h1>The interplay between somatic and dendritic inhibition promotes the emergence and stabilization of place fields</h1>
+<h2>Victor Pedrosa and Claudia Clopath</h2>
+<hr>
+<h2>General description</h2>
+<pre>Simulates a feedforward network in which the postsynaptic cell is modelled as a two-compartment neuron as in:
+  <br>
+[1]  Pedrosa, V., Clopath, C. The interplay between somatic and dendritic inhibition promotes the emergence and stabilization of place fields. 
+PlosCB (2020).
+  <br>
+Code written by: Victor Pedrosa 
+  <a href="mailto:v.pedrosa@imperial.ac.uk">v.pedrosa@imperial.ac.uk</a>
+  <br>
+Imperial College London, London, UK - Jan 2020
+</pre>
+<h2>List of files</h2>
+<pre>(1) run_simulations.py
+  <br>
+This file runs all the code in files 2, 3 and 4, generating the data in ‘my_runs/‘ and the 
+figures in 'Figures/'.
+  <br>
+(2) Single_CA1_neuron.py
+  <br>
+Simulates a feedforward network of rate-based neurons with plastic excitatory
+synapses and novelty signal.
+  <br>
+(3) Make_figs0.py
+  <br>
+Plots and save the figure generated with the data produced from (1) and (2). Figures are 
+saved in Figures/. This code extracts the data and plots the evolution of the mean neuron activity.
+  <br>
+(4) Make_figs1.py
+  <br>
+Plots and save the figure generated with the data produced from (1) and (2). Figures are 
+saved in Figures/. This code extracts the data and plots the evolution of place fields (somatic and dendritic).
+  <br>
+  <br>
+</pre>
+<h3>To simulate the network and plot the figures</h3>
+<pre>1. run (1): simulates the network, saves the results and generates the figures found in Figures;</pre>
